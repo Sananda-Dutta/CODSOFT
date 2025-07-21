@@ -30,7 +30,7 @@
 ## Output Visualizations
 
 ### 1. Classification Performance
-![Accuracy Results](https://github.com/your-username/your-repo/blob/main/images/accuracy_results.png?raw=true)
+![Accuracy Results](Task-3-Iris-Classification/confusion_matrix.png)
 
 ### 2. Feature Importance
 ![Feature Importance](https://github.com/your-username/your-repo/blob/main/images/feature_importance.png?raw=true)
