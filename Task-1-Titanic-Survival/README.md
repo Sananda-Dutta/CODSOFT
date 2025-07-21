@@ -8,7 +8,7 @@
 - Accuracy: 83% (8 out of 10 predictions correct)
 
 ## How to Run the Code
-1. Click on `titanic-survival-prediction.ipynb`
+1. Click on `Titanic_Survival.ipynb`
 2. Click the "Open in Colab" button (top-right)
 3. Run all cells (Click Runtime → Run all)
 
