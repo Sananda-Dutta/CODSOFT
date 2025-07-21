@@ -31,3 +31,20 @@
 ### Prerequisites
 ```bash
 pip install pandas scikit-learn matplotlib seaborn
+
+## 📸 Output Screenshots
+
+<div align="center">
+  <h3>1. Classification Report & Confusion Matrix</h3>
+  <img src="images/confusion_matrix.png" alt="Classification Results" width="500"/>
+  <p><em>Shows 90% accuracy with detailed precision/recall metrics</em></p>
+
+  <h3>2. Feature Importance Analysis</h3>
+  <img src="images/iris_Classification_result_1.png" alt="Feature Importance" width="500"/>
+  <p><em>Petal measurements dominate classification importance</em></p>
+
+  <h3>2. Feature Importance Analysis</h3>
+  <img src="images/iris_Classification_result_2.png" alt="Feature Importance" width="500"/>
+  <p><em>Petal measurements dominate classification importance</em></p>
+
+</div>
