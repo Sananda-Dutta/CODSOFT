@@ -1,2 +1,33 @@
 # Iris Flower Classification 🌸
-CODSOFT Task 3 - Classify iris species using machine learning.
+
+| **Category**       | **Details**                                                                 |
+|--------------------|----------------------------------------------------------------------------|
+| **Objective**      | Classify Iris flowers into 3 species using measurements (sepal/petal)      |
+| **Algorithms**     | Random Forest, SVM, KNN                                                    |
+| **Best Accuracy**  | 90% (Random Forest)                                                        |
+| **Dataset**        | [UCI Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris)           |
+
+---
+
+## 📊 Results
+
+### 1. Model Performance
+![Classification Report](iris_classification_results_accuracy_0.9_20230721.png)  
+- **Accuracy**: 90%  
+- **Confusion Matrix**: Shows occasional misclassification between *versicolor* and *virginica*.  
+- **Precision/Recall**: >0.9 for all classes.
+
+### 2. Feature Importance
+![Feature Importance Plot](iris_results_feature_importance.png)  
+- **Top Features**:  
+  - Petal length (46%)  
+  - Petal width (42%)  
+  - Sepal measurements (12% combined).
+
+---
+
+## 🛠️ How to Run
+
+### Prerequisites
+```bash
+pip install pandas scikit-learn matplotlib seaborn
