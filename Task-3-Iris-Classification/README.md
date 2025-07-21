@@ -25,40 +25,12 @@
   - Sepal measurements (12% combined).
 
 ---
+# Iris Classification Results
 
-## 🛠️ How to Run
+## Output Visualizations
 
-### Prerequisites
-```bash
-pip install pandas scikit-learn matplotlib seaborn
+### 1. Classification Performance
+![Accuracy Results](https://github.com/your-username/your-repo/blob/main/images/accuracy_results.png?raw=true)
 
-## 📸 Output Screenshots
-
-<div align="center">
-  <h3>1. Classification Report & Confusion Matrix</h3>
-  <img src="images/confusion_matrix.png" alt="Classification Results" width="500"/>
-  <p><em>Shows 90% accuracy with detailed precision/recall metrics</em></p>
-
-  <h3>2. Feature Importance Analysis</h3>
-  <img src="images/iris_Classification_result_1.png" alt="Feature Importance" width="500"/>
-  <p><em>Petal measurements dominate classification importance</em></p>
-
-  <h3>2. Feature Importance Analysis</h3>
-  <img src="images/iris_Classification_result_2.png" alt="Feature Importance" width="500"/>
-  <p><em>Petal measurements dominate classification importance</em></p>
-
-</div>
-## 📊 Key Results
-| Metric               | Value  |
-|----------------------|--------|
-| **Best Accuracy**    | 90%    |
-| **Misclassified**    | 3/30 (versicolor ↔ virginica) |
-| **Top Feature**      | Petal length (46% importance) |
-
----
-
-## 🛠️ Quick Start
-1. **Add your screenshots** to the `/images` folder:
-   ```bash
-   mkdir images
-   # Drag your screenshots into this folder
+### 2. Feature Importance
+![Feature Importance](https://github.com/your-username/your-repo/blob/main/images/feature_importance.png?raw=true)
