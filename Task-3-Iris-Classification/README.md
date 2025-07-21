@@ -48,3 +48,17 @@ pip install pandas scikit-learn matplotlib seaborn
   <p><em>Petal measurements dominate classification importance</em></p>
 
 </div>
+## 📊 Key Results
+| Metric               | Value  |
+|----------------------|--------|
+| **Best Accuracy**    | 90%    |
+| **Misclassified**    | 3/30 (versicolor ↔ virginica) |
+| **Top Feature**      | Petal length (46% importance) |
+
+---
+
+## 🛠️ Quick Start
+1. **Add your screenshots** to the `/images` folder:
+   ```bash
+   mkdir images
+   # Drag your screenshots into this folder
