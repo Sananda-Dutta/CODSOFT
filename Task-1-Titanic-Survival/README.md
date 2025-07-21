@@ -12,8 +12,12 @@
 2. Click the "Open in Colab" button (top-right)
 3. Run all cells (Click Runtime → Run all)
 
-## Results
-![Survival Chart](survival_by_class.png)
-*Chart showing 1st class passengers survived more*
+## 📊 Results
+
+### Survival Rates by Passenger Class
+![Class Survival Chart](survival_by_class.png)
+
+### Most Important Features
+![Feature Importance](feature_importance.png)
 
 Made for CODSOFT Internship
