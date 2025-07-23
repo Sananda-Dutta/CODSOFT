@@ -50,3 +50,10 @@ wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-
 ![Correlation Matrix](images/correlation_matrix.png)  
 *Pearson correlation between all variables in the dataset*
 
+## 📊 Results
+
+### Survival Rates by Passenger Class
+![Class Survival Chart](correlation_matrix.png)
+
+### Most Important Features
+![Feature Importance](feature_importance.png)
