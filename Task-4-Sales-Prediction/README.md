@@ -1,54 +1,50 @@
 # Sales Prediction Project
+# Sales Prediction Project
 
-# 📈 Sales Prediction with Machine Learning
+## 📌 Overview
+This project predicts sales figures based on advertising expenditure across three channels: TV, radio, and newspaper. Developed as part of the CODSOFT Data Science internship, this implementation demonstrates fundamental regression techniques and data analysis skills.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3.0-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+## 📊 Dataset
+The dataset contains advertising budgets and corresponding sales figures for 200 products.
 
-Predict sales based on advertising budgets (TV, Radio, Newspaper) using machine learning algorithms.
+**Features:**
+- `TV`: Advertising budget for TV (in thousands)
+- `Radio`: Advertising budget for radio
+- `Newspaper`: Advertising budget for print media
 
-## 📌 Table of Contents
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Data Description](#-data-description)
-- [Methodology](#-methodology)
-- [Results](#-results)
-- [Visualizations](#-visualizations)
-- [License](#-license)
+**Target Variable:**
+- `Sales`: Resulting sales figures (in thousands of units)
 
-## 🌟 Features
-- **Data Flexibility**: Works with real or synthetic data
-- **Comprehensive EDA**: Statistical analysis + 3 visualization types
-- **Multiple Models**: 
-  - Linear Regression
-  - Ridge Regression
-  - Random Forest Regressor
-- **Production-Ready**: Includes data scaling and model persistence
+## 🛠️ Implementation
+### Key Steps:
+1. **Data Preprocessing**
+   - Handling missing values
+   - Feature scaling
+   - Outlier detection
 
-## 💻 Installation
+2. **Model Training**
+   - Linear Regression (baseline)
+   - Random Forest Regressor
+   - Gradient Boosting
 
-# Clone repository
-git clone https://github.com/Sananda-Dutta/sales-prediction.git
-cd sales-prediction
+3. **Evaluation Metrics**
+   - R² Score
+   - Mean Absolute Error (MAE)
+   - Root Mean Squared Error (RMSE)
 
-Install dependencies
-pip install -r requirements.txt
+## 📈 Results
+| Model                | R² Score | MAE  | RMSE |
+|----------------------|----------|------|------|
+| Linear Regression    | 0.89     | 1.04 | 1.51 |
+| Random Forest        | 0.96     | 0.83 | 1.05 |
+| Gradient Boosting    | 0.97     | 0.78 | 0.98 |
 
-# Download dataset (optional)
-wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-4-Sales-Prediction/advertising.csv
+![Model Comparison](assets/model_comparison.png)
 
-## 📊 Data Visualizations
-
-### 1. Sales vs Advertising Channels
-![Sales Prediction Chart](images/sales_chart.png)  
-*Relationship between advertising budgets (TV, Radio, Newspaper) and sales figures*
-
-### 2. Feature Correlation Analysis
-![Correlation Matrix](images/correlation_matrix.png)  
-*Pearson correlation between all variables in the dataset*
+## 🚀 Getting Started
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook
 
 ## Sales Prediction Results
 
@@ -59,9 +55,3 @@ wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-
 ### 2. Feature Correlation Analysis  
 ![Correlation Matrix](correlation_matrix.png)
 **Description:** Pearson correlation between all variables in the dataset.  
-
----
-
-### Key Findings  
-- **Survival Rates by Passenger Class**  
-- **Most Important Features**  
