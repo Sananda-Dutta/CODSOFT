@@ -39,3 +39,13 @@ pip install -r requirements.txt
 
 # Download dataset (optional)
 wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-4-Sales-Prediction/advertising.csv
+
+## 📸 Output Screenshots
+
+### 1. Model Performance Results
+![Model Comparison](images/sales_chart.png)  
+Output showing R² scores and MSE metrics for all tested models
+
+### 2. Prediction Example
+![Sample Prediction](images/correlaton_matrix.png)  
+Example prediction for ad budgets: TV=$200k, Radio=$40k, Newspaper=$30k
