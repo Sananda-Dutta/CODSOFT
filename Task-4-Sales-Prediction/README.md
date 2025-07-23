@@ -6,7 +6,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3.0-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A machine learning project that predicts sales based on advertising budgets across TV, radio, and newspaper platforms.
+Predict sales based on advertising budgets (TV, Radio, Newspaper) using machine learning algorithms.
 
 ## 📌 Table of Contents
 - [Features](#-features)
@@ -17,29 +17,25 @@ A machine learning project that predicts sales based on advertising budgets acro
 - [Methodology](#-methodology)
 - [Results](#-results)
 - [Visualizations](#-visualizations)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## 🌟 Features
-- **Automatic Data Handling**: Loads real data or generates synthetic data if missing
-- **Exploratory Data Analysis**: Statistical summaries and correlation visualizations
-- **Multiple ML Models**: 
-  - Linear Regression (Baseline)
-  - Ridge Regression (Regularized)
-  - Random Forest (Ensemble)
-- **Model Evaluation**: R² and MSE metrics comparison
-- **Prediction API**: Ready-to-use function for new ad budget scenarios
+- **Data Flexibility**: Works with real or synthetic data
+- **Comprehensive EDA**: Statistical analysis + 3 visualization types
+- **Multiple Models**: 
+  - Linear Regression
+  - Ridge Regression
+  - Random Forest Regressor
+- **Production-Ready**: Includes data scaling and model persistence
 
 ## 💻 Installation
 
-### Prerequisites
-- Python 3.8+
-- pip package manager
+# Clone repository
+git clone https://github.com/Sananda-Dutta/sales-prediction.git
+cd sales-prediction
 
-### Steps
-1. Clone the repository:
-   bash
-   git clone https://github.com/Sananda-Dutta/sales-prediction.git
-   cd sales-prediction
-   
+Install dependencies
 pip install -r requirements.txt
+
+# Download dataset (optional)
+wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-4-Sales-Prediction/advertising.csv
