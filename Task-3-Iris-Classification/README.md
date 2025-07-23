@@ -28,8 +28,11 @@
 
 ## Output Visualizations
 
-### 1. Classification Performance
-![Accuracy Results](Task-3-Iris-Classification/confusion_matrix.png)
+### 1. Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
-### 2. Feature Importance
-![Feature Importance](https://github.com/your-username/your-repo/blob/main/images/feature_importance.png?raw=true)
+### 2. Iris Classification Result 1
+![Iris Classification Result 1](iris_Classification_result_1.png)
+
+### 3. Iris Classification Result 2
+![Iris Classification Result 2](iris_Classification_result_2.png)
