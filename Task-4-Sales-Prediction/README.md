@@ -57,7 +57,7 @@ wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-
 **Description:** Relationship between advertising budgets (TV, Radio, Newspaper) and sales figures.  
 
 ### 2. Feature Correlation Analysis  
-![Correlation Matrix](correlation_matrix.png)  
+![Correlation Matrix](correlation_matrix.png)
 **Description:** Pearson correlation between all variables in the dataset.  
 
 ---
