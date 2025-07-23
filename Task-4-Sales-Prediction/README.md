@@ -1,5 +1,4 @@
 # Sales Prediction Project
-# Sales Prediction Project
 
 ## 📌 Overview
 This project predicts sales figures based on advertising expenditure across three channels: TV, radio, and newspaper. Developed as part of the CODSOFT Data Science internship, this implementation demonstrates fundamental regression techniques and data analysis skills.
