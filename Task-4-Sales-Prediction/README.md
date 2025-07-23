@@ -41,3 +41,5 @@ A machine learning project that predicts sales based on advertising budgets acro
    bash
    git clone https://github.com/Sananda-Dutta/sales-prediction.git
    cd sales-prediction
+   
+pip install -r requirements.txt
