@@ -50,10 +50,18 @@ wget -P data/ https://raw.githubusercontent.com/Sananda-Dutta/CODSOFT/main/Task-
 ![Correlation Matrix](images/correlation_matrix.png)  
 *Pearson correlation between all variables in the dataset*
 
-## 📊 Results
+## Sales Prediction Results
 
-### Survival Rates by Passenger Class
-![Class Survival Chart](correlation_matrix.png)
+### 1. Sales vs Advertising Channels  
+![Sales Prediction Chart](sales_chart.png)  
+**Description:** Relationship between advertising budgets (TV, Radio, Newspaper) and sales figures.  
 
-### Most Important Features
-![Feature Importance](feature_importance.png)
+### 2. Feature Correlation Analysis  
+![Correlation Matrix](correlation_matrix.png)  
+**Description:** Pearson correlation between all variables in the dataset.  
+
+---
+
+### Key Findings  
+- **Survival Rates by Passenger Class**  
+- **Most Important Features**  
