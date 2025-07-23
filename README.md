@@ -6,5 +6,5 @@ Projects in CODSOFT internship
 | Task | Project | Status |
 |------|---------|--------|
 | 1 | [Titanic Survival](Task-1-Titanic-Survival/) | ✅ Done |
-| 2 | [Movie Rating](Task-2-Movie-Rating/) | ⏳ In Progress |
-| 3 | [Iris Classification](Task-3-Iris-Classification/) | ✅ Done |
+| 2 | [Iris Classification](Task-3-Iris-Classification/) | ✅ Done |
+| 3 | [Sales Prediction](Task-4-Sales-Prediction/) | ✅ Done |
