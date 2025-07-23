@@ -5,7 +5,6 @@
 | **Objective**      | Classify Iris flowers into 3 species using measurements (sepal/petal)      |
 | **Algorithms**     | Random Forest, SVM, KNN                                                    |
 | **Best Accuracy**  | 90% (Random Forest)                                                        |
-| **Dataset**        | [UCI Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris)           |
 
 ---
 
